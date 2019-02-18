@@ -1,4 +1,5 @@
 .forceCode
+.vscode
 .sfdx
 src/classes/*.cls-meta.xml
 src/triggers/*.trigger-meta.xml

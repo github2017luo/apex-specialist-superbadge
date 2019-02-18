@@ -8,7 +8,7 @@ public class MaintenanceRequestHelper {
             Case newRequest = newRequests.get(requestId);
 
             if(oldRequest.Status != 'Closed' && newRequest.Status == 'Closed'
-                && newRequest.Type == 'Repair' || newRequest.Type == 'Routine Maintenance') {
+                && (newRequest.Type == 'Repair' || newRequest.Type == 'Routine Maintenance')) {
 
                     Case newMaintenanceRequest = new Case(
                         Subject = 'Routine Maintenance',

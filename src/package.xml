@@ -8,6 +8,7 @@
         <members>WarehouseCalloutServiceMock</members>
         <members>WarehouseCalloutServiceTest</members>
         <members>WarehouseSyncSchedule</members>
+        <members>WarehouseSyncScheduleTest</members>
         <name>ApexClass</name>
     </types>
     <types>
